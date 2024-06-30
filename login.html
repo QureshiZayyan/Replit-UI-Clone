@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In- Replit</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(30, 30, 48);
+            font-family: 'Poppins', sans-serif;
+        }
+
+        header {
+            padding: 15px 35px;
+            display: flex;
+            align-items: center;
+            color: white;
+            background-color: rgb(24, 24, 56);
+        }
+
+        .replit {
+            font-size: 1.9rem;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 50px 0;
+        }
+
+        input,
+        button {
+            display: block;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        input {
+            width: 297px;
+            padding: 15px;
+            margin: 10px 0;
+            border: 1px solid rgb(81, 81, 85);
+            background-color: rgba(90, 90, 138, 0.164);
+            color: white;
+        }
+
+        .btn {
+            width: 327px;
+            padding: 15px 0;
+            font-weight: bold;
+            background-color: rgb(17, 61, 183);
+            border: none;
+            color: white;
+        }
+
+        .form {
+            padding: 12px 0;
+            text-align: center;
+        }
+
+        .forget {
+            margin: 25px 0;
+            display: inline-block;
+            color: skyblue;
+            font-size: 1.2rem;
+        }
+
+        .color {
+            color: skyblue;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 1.9rem;
+            color: white;
+        }
+
+        .continue {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .g {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: grey;
+            border-radius: 4px;
+        }
+
+        .f {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: grey;
+            border-radius: 4px;
+        }
+
+        .github {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: grey;
+            border-radius: 4px;
+        }
+
+        .icon {
+            margin: 12px 0;
+            background-color: rgb(134, 127, 127);
+            opacity: 0.7;
+            padding: 4px;
+            color: white;
+            border-radius: 7px;
+        }
+
+        .icon a {
+            margin: 0 10px;
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+
+        hr {
+            width: 103%;
+            margin: 36px -3px;
+        }
+
+        .signin {
+            color: white;
+        }
+
+        .help {
+            margin: 30px 0;
+        }
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <img src="images/icons8-replit.svg" alt="" width="46" height="46">
+        <span class="replit">replit</span>
+    </header>
+
+    <div class="container">
+        <div class="login">
+            <h2>Log in to your account</h2>
+            <form class="form">
+                <input type="text" name="username" id="username" placeholder="Email">
+                <input type="text" name="password" id="password" placeholder="password">
+                <button class="btn">Log in</button>
+
+                <a href="#" class="forget color">forgot password?</a>
+
+                <div class="img">
+                    <div class="g icon">
+                        <img src="images/icons8-google.svg" height="35" width="30" alt="login with google">
+                        <a href="#">Continue with google</a>
+                    </div>
+
+                    <div class="f icon">
+                        <img src="images/icons8-facebook.svg" height="35" width="30" alt="login with facebook">
+                        <a href="#"> Continue with facebook</a>
+                    </div>
+
+                    <div class="github icon">
+                        <img src="images/icons8-github.svg" height="35" width="30" alt="login with facebook">
+                        <a href="#">Continue with github</a>
+
+                    </div>
+                </div>
+                <hr>
+
+                <p class="signin">New to replit? <a href="#" class="color">Sign Up</a></p>
+                <a href="#" class="color help">Get help</a>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
